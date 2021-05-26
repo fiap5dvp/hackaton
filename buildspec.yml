@@ -25,3 +25,6 @@ artifacts:
   files: 
     - imagedefinitions.json
     - githash
+
+
+    
