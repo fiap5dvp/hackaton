@@ -1,6 +1,8 @@
 version: 0.2
 phases:
   install: 
+    runtime-versions:
+      docker: 18
     commands:       
       - PROJ_NAME="$PROJECT_NAME"
   pre_build:
@@ -25,6 +27,3 @@ artifacts:
   files: 
     - imagedefinitions.json
     - githash
-
-
-    
